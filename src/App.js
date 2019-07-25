@@ -10,13 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Header/>
-    <Landing/>
-    <Projects/>
-    <AboutMe/>
-    <Pictures/>
-    <Contact/>
-    <Footer/>
+    <Overlay />
   );
 }
 
