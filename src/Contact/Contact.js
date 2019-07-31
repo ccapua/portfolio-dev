@@ -15,7 +15,7 @@ export default function Contact() {
         <input type="text" class="email" name="email" placeholder="Your email"/>
         <span class='error'>*</span><br/>
         <label for="message">Your message</label>
-        <textarea class="message" name="message" placeholder="Your message"/></textarea>
+        <textarea class="message" name="message" placeholder="Your message"/>
         <span class='error'>*</span><br/>
         <input type="submit" class="submit"></input>
       </form>

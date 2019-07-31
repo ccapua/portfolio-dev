@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React, {  } from 'react';
 
 const Burger = (props) => {
-  
+
   return ( 
-    <div id="burger" data-state="burger">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
+    <div id="burger" ref={props.burger} data-state="burger" onClick={props.toggleClicked}>
+      <div className="bar1"></div>
+      <div className="bar2"></div>
+      <div className="bar3"></div>
     </div>
   );
 }
